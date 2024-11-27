@@ -1,0 +1,8 @@
+<div class="products-container d-flex justify-content-between container">
+  <div class="product-card d-flex flex-column align-items-center" *ngFor="let product of products">
+    <img [src]="product.image" [alt]="product.name" />
+    <h3>{{ product.name }}</h3>
+<!--    <p>{{ product.description }}</p>-->
+    <button class="btn-primary btn" (click)="viewDetails(product)">FIND OUT MORE</button>
+  </div>
+</div>

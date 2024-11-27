@@ -1,1 +1,9 @@
+@import "bootstrap";
 /* You can add global styles to this file, and also import other style files */
+@import url(https://db.onlinewebfonts.com/c/8bea3d34e5f976e850a8f12ae1aa8dd2?family=Refrigerator+Deluxe+W01+Regular);
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  box-sizing: border-box;
+  font-family: "Refrigerator Deluxe W01 Regular", serif;
+
+}

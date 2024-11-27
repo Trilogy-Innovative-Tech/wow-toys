@@ -1,0 +1,44 @@
+main>h1 {
+  font-size: 48px; /* Set the size of the font */
+  font-weight: bold; /* Make the text bold */
+  color: #00a9e0; /* Set the blue color */
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.product-highlight {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.product-info {
+  flex: 1;
+  padding: 20px;
+}
+
+.product-info h2 {
+  font-size: 2rem;
+  color: #1e9bf0;
+  text-transform: uppercase;
+}
+
+.product-info p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.learn-more-btn {
+  padding: 10px 20px;
+  background-color: #1e9bf0;
+  color: white;
+  font-size: 1.2rem;
+  text-decoration: none;
+  border-radius: 40px;
+}
+
+.product-image img {
+  max-width: 400px;
+  margin-left: 20px;
+  min-width: 300px;
+}

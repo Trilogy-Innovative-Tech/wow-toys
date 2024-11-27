@@ -1,0 +1,28 @@
+<!-- header.component.html -->
+<nav class="navbar">
+  <div class="logo">
+    <img src="/assets/img/logo.svg" alt="WowWee Logo" />
+  </div>
+  <ul class="nav-links">
+    <li><a href="#">Products</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">New</a></li>
+    <li><a href="#">Shop Now</a></li>
+  </ul>
+
+  <div class="navigation-bar__shift d-flex gap-2 align-items-center">
+
+    <form action="/products/search" class="navigation-bar__search-form js-search" method="get">
+      <input type="search" name="term" placeholder="Search WowWee Products" class="navigation-bar__search-form__input navigation-bar__search-form__input--no-instagram">
+      <a href="#" class="navigation-bar__search-form__close">Close</a>
+    </form>
+
+    <div class="navigation-bar__social d-flex gap-2">
+      <a href="https://www.facebook.com/WowWee" target="_blank" class="navigation-bar__social__item navigation-bar__social__item--facebook">Facebook</a>
+      <a href="https://twitter.com/wowweeworld" target="_blank" class="navigation-bar__social__item navigation-bar__social__item--twitter">Twitter</a>
+      <a href="https://www.youtube.com/user/WowweeUniverse" target="_blank" class="navigation-bar__social__item navigation-bar__social__item--youtube">Youtube</a>
+      <a href="https://www.instagram.com/wowwee/" target="_blank" class="navigation-bar__social__item navigation-bar__social__item--instagram">Instagram</a>
+    </div>
+
+  </div>
+</nav>
