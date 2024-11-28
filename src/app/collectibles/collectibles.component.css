@@ -1,5 +1,5 @@
 main>h1 {
-  font-size: 48px; /* Set the size of the font */
+  font-size: 55px; /* Set the size of the font */
   font-weight: bold; /* Make the text bold */
   color: #00a9e0; /* Set the blue color */
   text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);
@@ -17,9 +17,10 @@ main>h1 {
 }
 
 .product-info h2 {
-  font-size: 2rem;
+  font-size: 2.8rem;
   color: #1e9bf0;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .product-info p {
