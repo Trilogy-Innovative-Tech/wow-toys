@@ -1,0 +1,100 @@
+#main-bg-image-section {
+  background-image: url("/assets/img/product-main-bg-image.jpg");
+}
+
+.image-bg-section{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+}
+#perfect-pets-section{
+  background-image: url("/assets/img/blue-bg-wow.jpg");
+}
+
+#video-section{
+  background-image: url("/assets/img/video-image.jpg");
+}
+
+#kid-image-section{
+  width: 100%;
+  height: 50vh;
+  div{
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.kid-image-div{
+  width: 25%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#kid-1{
+  background-image: url("/assets/img/kid-1.jpg");
+}
+#kid-2{
+  background-image: url("/assets/img/kid-2.jpg");
+}
+#kid-3{
+  background-image: url("/assets/img/kid-3.jpg");
+}
+#kid-4{
+  background-image: url("/assets/img/kid-4.jpg");
+}
+
+/* Style for the sub-navigation bar container */
+.sub-navigation-bar {
+  background-color: white; /* Set the navbar background color */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  padding: 10px 0; /* Vertical padding */
+  position: sticky; /* Makes the navbar stick to the top on scroll */
+  top: 0;
+  z-index: 1000; /* Ensure it stays on top */
+}
+
+/* Center the navigation content */
+.sub-navigation-bar .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* InlineBlock ensures the links align properly */
+.InlineBlock {
+  display: flex;
+  gap: 20px; /* Space between navigation items */
+}
+
+/* Style for each navigation item */
+.sub-navigation-bar__item {
+  text-decoration: none; /* Remove underline from links */
+  color: black; /* Default text color */
+  font-weight: bold; /* Bold text */
+  font-size: 16px; /* Adjust font size */
+  text-transform: uppercase; /* Capitalize all letters */
+  transition: color 0.3s ease, text-decoration 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect for navigation items */
+.sub-navigation-bar__item:hover {
+  color: #007BFF; /* Highlight color on hover */
+  text-decoration: underline; /* Optional underline on hover */
+}
+
+/* Hide specific items on mobile */
+.hide-on-mobile {
+  display: none; /* Hide on mobile devices */
+}
+
+/* Make the hidden item visible on larger screens */
+@media (min-width: 768px) {
+  .hide-on-mobile {
+    display: inline; /* Show on tablets and larger devices */
+  }
+}
+

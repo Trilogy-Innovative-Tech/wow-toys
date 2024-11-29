@@ -9,6 +9,7 @@ import { ProductsComponent } from './products/products.component';
 import { FooterComponent } from './footer/footer.component';
 import { CollectiblesComponent } from './collectibles/collectibles.component';
 import { HomeComponent } from './home/home.component';
+import { EconovaComponent } from './econova/econova.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HomeComponent } from './home/home.component';
     ProductsComponent,
     FooterComponent,
     CollectiblesComponent,
-    HomeComponent
+    HomeComponent,
+    EconovaComponent
   ],
   imports: [
     BrowserModule,
