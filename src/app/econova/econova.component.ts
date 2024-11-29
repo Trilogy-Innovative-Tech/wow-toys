@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-econova',
@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrl: './econova.component.css'
 })
 export class EconovaComponent {
+  scrollToSection(sectionId: string) {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({behavior: 'smooth', block: 'start'});
+    }
+  }
 
 }
