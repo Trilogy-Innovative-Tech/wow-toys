@@ -9,7 +9,7 @@ const routes: Routes = [
   {path: 'collectibles', component: CollectiblesComponent}, // add the route
   {path: 'econova', component: EconovaComponent}, // add the route
   {path: '', component: HomeComponent},  // home route or default route
-  // {path: '**', redirectTo: ''}  // wildcard route for invalid paths
+  {path: '**', redirectTo: ''}  // wildcard route for invalid paths
 ];
 
 @NgModule({

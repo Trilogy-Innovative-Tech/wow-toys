@@ -22,7 +22,6 @@ export class ProductsComponent {
   viewDetails(product: Product) {
     if (product.name === 'Collectibles & Interactive Toys') {
       this.router.navigate(['/collectibles']);
-
     }
   }
 }
