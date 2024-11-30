@@ -1,13 +1,14 @@
-#main-bg-image-section {
-  background-image: url("/assets/img/product-main-bg-image.jpg");
-}
-
 .image-bg-section{
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;
   min-height: 100vh;
+}
+
+#main-bg-image-section {
+  background-image: url("/assets/img/product-img/product-main-bg-image.png");
+  height: 768px;
 }
 #perfect-pets-section{
   background-image: url("/assets/img/product-img/bg-wow.png");
